@@ -23,6 +23,46 @@
 //   console.log("less than 10");
 // }
 
-const fruits = [];
-fruits.push("apple", "banana", "grapes");
-console.log(fruits);
+// const fruits = [];
+// fruits.push("apple", "banana", "grapes");
+// console.log(fruits);
+
+//Arrow operators etc
+
+// const materials = ["Hydrogen", "Helium", "Lithium", "Beryllium"];
+
+// console.log(materials.map((material) => material.length));
+
+// syntax
+
+// param => expression
+
+// (param) => expression
+
+// (param1, paramN) => expression
+
+// param => {
+//   statements
+// }
+
+// (param1, paramN) => {
+//   statements
+// }
+
+// hello = () => "hello world!";
+// console.log(hello());
+// vals = (a) => "hello" + a;
+// console.log(vals(10));
+
+//cowsay
+
+var cowsay = require("cowsay");
+const Quote = require("inspirational-quotes");
+
+console.log(
+  cowsay.say({
+    text: Quote.getRandomQuote(),
+    e: "o-o",
+    T: "U",
+  })
+);
