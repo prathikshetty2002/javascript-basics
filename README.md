@@ -1,2 +1,1 @@
-# solana-projects
-A collection of solana projects
+Javascript basic concepts
